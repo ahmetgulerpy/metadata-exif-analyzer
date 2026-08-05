@@ -1,8 +1,10 @@
 # Metadata EXIF Analyzer
 
-A simple Python tool for extracting and analyzing EXIF metadata from images.
+A Python tool for extracting and analyzing EXIF metadata from digital images.
 
-This project was created for educational purposes to demonstrate how image metadata can be inspected using Python.
+This repository contains both the beginner-friendly version used in my educational Instagram videos and a more structured implementation for developers.
+
+---
 
 ## Features
 
@@ -12,36 +14,76 @@ This project was created for educational purposes to demonstrate how image metad
 - 📍 Extract GPS coordinates (if available)
 - 🗺️ Generate Google Maps location link
 - 🎓 Beginner-friendly educational example
+- 🧑‍💻 Structured implementation for developers
+
+---
 
 ## Project Structure
 
-```
+```text
 metadata-exif-analyzer/
-├── examples/      # Educational examples used in Instagram tutorials
-├── src/           # More structured implementation
-├── sample/        # Example images
+├── examples/
+│   └── exif_analyzer.py     # Educational version used in Instagram tutorials
+│
+├── src/
+│   └── exif_analyzer.py     # Structured implementation
+│
 ├── README.md
 ├── requirements.txt
-└── LICENSE
+├── LICENSE
+└── .gitignore
 ```
 
-## Requirements
+---
 
-- Python 3.10+
-- Pillow
+## Installation
 
-Install:
+Clone the repository:
+
+```bash
+git clone https://github.com/ahmetgulerpy/metadata-exif-analyzer.git
+```
+
+Install the required dependency:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Educational Purpose
+---
 
-This repository is intended for learning and awareness about image metadata (EXIF).
+## Usage
 
-Always ensure you have permission before analyzing images that belong to others.
+Educational version:
+
+```bash
+python examples/exif_analyzer.py
+```
+
+Structured version:
+
+```bash
+python src/exif_analyzer.py image.jpg
+```
+
+---
+
+## Repository Purpose
+
+This repository was created to help beginners understand how EXIF metadata can be extracted and analyzed using Python.
+
+The `examples` directory contains the simplified version demonstrated in my educational content, while the `src` directory provides a cleaner and more structured implementation of the same concept.
+
+---
+
+## Disclaimer
+
+This project is intended for educational, research and authorized security awareness purposes only.
+
+Always ensure you have permission before analyzing files that do not belong to you.
+
+---
 
 ## License
 
-MIT License
+This project is licensed under the MIT License.
