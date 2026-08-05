@@ -17,7 +17,7 @@ This project was created for educational purposes to demonstrate how image metad
 
 ```
 metadata-exif-analyzer/
-├── beginner/      # Version used in Instagram tutorials
+├── examples/      # Educational examples used in Instagram tutorials
 ├── src/           # More structured implementation
 ├── sample/        # Example images
 ├── README.md
