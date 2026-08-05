@@ -11,7 +11,7 @@ This project was created for educational purposes to demonstrate how image metad
 - 📅 Read capture date and time
 - 📍 Extract GPS coordinates (if available)
 - 🗺️ Generate Google Maps location link
-- 🐍 Beginner-friendly Python code
+- 🎓 Beginner-friendly educational example
 
 ## Project Structure
 
